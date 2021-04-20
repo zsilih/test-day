@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 const Images = () => {
     const { isAuthenticated } = useAuth0();
     let content = null;
-    const url = `https://api.unsplash.com/collections/3847388/photos/?client_id=4HjY6rr6nyoFDfe_lozswjvNoJikuJP3JOzrtRhiRHM`;
+    const url = `https://api.unsplash.com/collections/3847388/photos/?client_id=4HjY6rr6nyoFDfe_lozswjvNoJikuJP3JOzrtRhiRHM&orientation=landscape`;
     const [images, setImages] = useState(null)
 
     useEffect(() => {
