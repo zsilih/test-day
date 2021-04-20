@@ -20,7 +20,7 @@ const Images = () => {
     {
         content = 
         images.map((image, key) => 
-            <img src={image.url}/>       
+            <img key={key} src={image.url}/>       
         )
     }
 
