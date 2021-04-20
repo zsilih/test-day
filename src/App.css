@@ -1,90 +1,33 @@
-/*
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  padding: 2rem 0;
-  padding: 1rem 2rem;
-  cursor: pointer;
-}
-*/
-
-/*
-button {
-  margin: 2rem 0;
-  width: 120px;
-  cursor: pointer;
-}*/
-
-ul, li, a {
+.logoutButton, .loginButton {
   margin-left: 20px;
-  color: white;
-}
-
-.loginBtn {
-  position: relative;
-  float: right;
-  margin: 2rem 0;
-  width: 120px;
-  padding: 1rem;
-  background: red;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  color: white;
-}
-
-.logoutBtn {
-  position: relative;
-  float: right;
-  margin: 2rem 0;
-  width: 120px;
-  padding: 1rem;
-  background: red;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  color: white;
 }
 
 
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.profile-img {
+  width:17.9rem;
 }
+
 
 html {
   font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background: #eee;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  padding: 0 16px;
+  background: #f5cebe;
+  /*background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");*/
 }
 
-header {
-  background-color: #104564;
-  margin: auto -16px;
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  display:flex;
-}
-
-header h1 {
-  color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-}
 
 footer {
-  position: absolute;
+  background-color:#343A40;
+  position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
@@ -92,7 +35,8 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: #f5cebe;
+  margin-top: 5px;
 }
 
 .note {

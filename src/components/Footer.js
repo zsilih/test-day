@@ -2,7 +2,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
         <footer>
-            <p>Test Day &copy; {currentYear}</p>
+            <p>Mord OS &copy; {currentYear}</p>
         </footer>
     )
 }
